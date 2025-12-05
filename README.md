@@ -87,7 +87,7 @@ These files are exactly the ones referenced as Figs.1–4 and Table 1 in the man
   
     $\varepsilon(\omega) = 1 + \frac{N\,\alpha(\omega)}{\varepsilon_0}$
 
-- **Velocity gauge route**: construct \(\sigma(\omega)\) via the Kubo current–current response, including:
+- **Velocity gauge route**: construct $(\sigma(\omega))$ via the Kubo current–current response, including:
   - paramagnetic current,
   - equal-time (diamagnetic/contact) term,
 
@@ -170,8 +170,8 @@ All constants and parameters used in the script are written to:
 
 in a format that mirrors the manuscript’s Table 1. This includes:
 
-- SI values of physical constants $((\varepsilon_0\), \(\mu_0\), \(e\), \(m\), \(\hbar\), …)$,
-- oscillator parameters and derived quantities (e.g. $(\Omega\), \(\gamma\), Lorentz strength \(S\), \(n_{\mathrm{eff}}\), \(\alpha(0)\))$,
+- SI values of physical constants $(\varepsilon_0, \mu_0, e, m, \hbar, …)$,
+- oscillator parameters and derived quantities (e.g. $\Omega$, $\gamma$, Lorentz strength $(S)$, $n_{\mathrm{eff}}$, $\alpha(0)$ ),
 - interface and thin-film descriptors,
 - skin-depth parameters,
 - numerical grid definitions.
