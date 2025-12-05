@@ -26,14 +26,9 @@ The goals of this repo are:
   - `F4_skin_depth.png` – RF/microwave skin depth at two temperatures
   - `Table_S1_units_prefactors.csv` – constants and parameters (Table S1)
 
-- `IMG/`  
-  Folder where the figures are written (created automatically if missing).
-
 - `README.md`  
   This file.
-
-If you use a different structure in your paper (e.g. `F1.png` instead of `F1_epsilon_overlay.png`), you can just rename the generated files or adapt the script paths.
-
+  
 ---
 
 ## Requirements
