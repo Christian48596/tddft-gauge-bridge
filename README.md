@@ -11,7 +11,7 @@ This repository contains the **numerical validation scripts** used to generate F
 The goals of this repo are:
 
 - to make the **gauge checks** (length vs. velocity, equal-time term) fully reproducible,
-- to document the **unit and prefactor conventions** (including explicit SI and \(\alpha_{\rm fs}\)),
+- to document the **unit and prefactor conventions** (including explicit SI and $(\alpha_{\rm fs}\))$,
 - and to provide minimal, transparent examples for people who want to extend or reimplement the workflow.
 
 ---
@@ -21,10 +21,10 @@ The goals of this repo are:
 - `F1-F4.py`  
   Main Python script. Generates:
   - `F1_epsilon_overlay.png` – length vs velocity gauge $(\varepsilon(\omega))$
-  - `F2_fsum_cumulative.png` – optical \(f\)-sum saturation
+  - `F2_fsum_cumulative.png` – optical $(f)$-sum saturation
   - `F3_sheet_vs_film.png` – 2D sheet vs. naïve ultrathin film
   - `F4_skin_depth.png` – RF/microwave skin depth at two temperatures
-  - `Table_S1_units_prefactors.csv` – constants and parameters (Table S1 / Table~\ref{tab:allparams})
+  - `Table_S1_units_prefactors.csv` – constants and parameters (Table S1)
 
 - `IMG/`  
   Folder where the figures are written (created automatically if missing).
