@@ -1,0 +1,15 @@
+Quantity,Symbol,SI unit,Value (SI),Alt unit,Value (alt)
+Vacuum permittivity,ε0,F m^-1,8.8541878128e-12,-,-
+Vacuum permeability,μ0,H m^-1,1.2566370614359173e-06,-,-
+Impedance of free space,Z0,Ω,376.7303135643202,-,-
+Electron charge,e,C,1.602176634e-19,-,-
+Electron mass,m_e,kg,9.1093837015e-31,-,-
+Reduced Planck constant,ħ,J s,1.054571817e-34,-,-
+Transition dipole,μ,C m,1.000692285e-29,D,3.0
+Transition frequency,Ω/2π,Hz,725396773069939.9,eV,3.0
+Damping,γ,s^-1,455780234642853.1,γ/2π [Hz],72539677306994.0
+Number density,N,m^-3,1e+27,-,-
+Lorentz strength,S,s^-2,9.776011317741381e+29,-,-
+Effective density (sum rule),n_eff,m^-3,3.071698840089988e+26,-,-
+Static polarizability (Re),α(0),C m^2 V^-1,4.156378302228694e-40,cm^3 (cgs),3.7355665259510945e-24
+f-sum target,π n e^2/(2m),S·s,1.3596599418429946e+19,-,-
