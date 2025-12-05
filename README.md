@@ -20,7 +20,7 @@ The goals of this repo are:
 
 - `F1-F4.py`  
   Main Python script. Generates:
-  - `F1_epsilon_overlay.png` – length vs velocity gauge \(\varepsilon(\omega)\)
+  - `F1_epsilon_overlay.png` – length vs velocity gauge $(\varepsilon(\omega))$
   - `F2_fsum_cumulative.png` – optical \(f\)-sum saturation
   - `F3_sheet_vs_film.png` – 2D sheet vs. naïve ultrathin film
   - `F4_skin_depth.png` – RF/microwave skin depth at two temperatures
