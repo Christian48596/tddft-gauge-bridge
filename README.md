@@ -11,7 +11,7 @@ This repository contains the **numerical validation scripts** used to generate F
 The goals of this repo are:
 
 - to make the **gauge checks** (length vs. velocity, equal-time term) fully reproducible,
-- to document the **unit and prefactor conventions** (including explicit SI and $(\alpha_{\rm fs}\)$),
+- to document the **unit and prefactor conventions** (including explicit SI and $(\alpha_{\rm fs}\))$,
 - and to provide minimal, transparent examples for people who want to extend or reimplement the workflow.
 
 ---
@@ -86,7 +86,7 @@ These files are exactly the ones referenced as Figs.1–4 and Table S1 in the ma
   - transition energy $(\hbar \Omega = 3.0)$ eV,
   - dipole $(\mu = 3.0)$ D,
   - dephasing $(\eta = 0.05\,\Omega)$ (damping $(\gamma = 2\eta)$),
-  - number density $(N = 10^{27}\,\mathrm{m^{-3}}\)$.
+  - number density $(N = 10^{27} \mathrm{m^{-3}}\)$.
 
 - **Length gauge route**: build \(\alpha(\omega)\) from the two-level expression, then
   \[
