@@ -60,7 +60,7 @@ pip install numpy matplotlib pandas
 Clone the repository and run the main script:
 
 ```bash
-git clone https://github.com/<your-username>/tddft-gauge-bridge.git
+git clone https://github.com/Christian48596/tddft-gauge-bridge.git
 cd tddft-gauge-bridge
 
 python F1-F4.py
