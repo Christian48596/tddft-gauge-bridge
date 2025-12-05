@@ -3,7 +3,7 @@
 
 Gauge-invariant long-wavelength TDDFT without empty states: from polarizability to Kubo conductivity across heterogeneous materials.
 
-This repository contains the **numerical validation scripts** used to generate Figs. F1–F4 and the parameter table in
+This repository contains the **numerical validation scripts** used to generate Figs. 1–4 and the parameter Table 1  in
 
 > C. Tantardini, Q. Pitteloud, B. Yakobson, M. P. Andersson,  
 > *Gauge-Invariant Long-Wavelength TDDFT Without Empty States: From Polarizability to Kubo Conductivity Across Heterogeneous Materials* (AIP, submitted).
@@ -24,7 +24,7 @@ The goals of this repo are:
   - `F2_fsum_cumulative.png` – optical $(f)$-sum saturation
   - `F3_sheet_vs_film.png` – 2D sheet vs. naïve ultrathin film
   - `F4_skin_depth.png` – RF/microwave skin depth at two temperatures
-  - `Table_S1_units_prefactors.csv` – constants and parameters (Table S1)
+  - `Table_S1_units_prefactors.csv` – constants and parameters (Table 1)
 
 - `README.md`  
   This file.
@@ -69,7 +69,7 @@ After a successful run you should see:
 - `F4_skin_depth.png`
 - `Table_S1_units_prefactors.csv`
 
-These files are exactly the ones referenced as Figs.1–4 and Table S1 in the manuscript.
+These files are exactly the ones referenced as Figs.1–4 and Table 1 in the manuscript.
 
 ---
 
@@ -170,8 +170,8 @@ All constants and parameters used in the script are written to:
 
 in a format that mirrors the manuscript’s Table 1. This includes:
 
-- SI values of physical constants (\(\varepsilon_0\), \(\mu_0\), \(e\), \(m\), \(\hbar\), …),
-- oscillator parameters and derived quantities (e.g. \(\Omega\), \(\gamma\), Lorentz strength \(S\), \(n_{\mathrm{eff}}\), \(\alpha(0)\)),
+- SI values of physical constants $((\varepsilon_0\), \(\mu_0\), \(e\), \(m\), \(\hbar\), …)$,
+- oscillator parameters and derived quantities (e.g. $(\Omega\), \(\gamma\), Lorentz strength \(S\), \(n_{\mathrm{eff}}\), \(\alpha(0)\))$,
 - interface and thin-film descriptors,
 - skin-depth parameters,
 - numerical grid definitions.
@@ -192,8 +192,6 @@ If you use this repository or adapt the scripts, please cite the associated pape
   year    = {2025},
 }
 ```
-
-(Replace journal / year / pages once available.)
 
 ---
 
