@@ -85,40 +85,35 @@ These files are exactly the ones referenced as Figs.1–4 and Table S1 in the ma
 
 - **Length gauge route**: build $(\alpha(\omega))$ from the two-level expression, then
   
-    $\varepsilon(\omega) = 1 + \frac{N\,\alpha(\omega)}{\varepsilon_0}$.
+    $\varepsilon(\omega) = 1 + \frac{N\,\alpha(\omega)}{\varepsilon_0}$
 
 - **Velocity gauge route**: construct \(\sigma(\omega)\) via the Kubo current–current response, including:
   - paramagnetic current,
   - equal-time (diamagnetic/contact) term,
 
   then
-  \[
-    \varepsilon(\omega) = 1 - \frac{i}{\varepsilon_0\omega}\,\sigma(\omega).
-  \]
+
+    $\varepsilon(\omega) = 1 - \frac{i}{\varepsilon_0\omega}\,\sigma(\omega)$
 
 - The script plots:
-  - length-gauge \(\varepsilon(\omega)\),
-  - full velocity-gauge \(\varepsilon(\omega)\),
+  - length-gauge $(\varepsilon(\omega))$,
+  - full velocity-gauge $(\varepsilon(\omega))$,
   - velocity-gauge without the equal-time term (“no-dia”).
 
 Over RF–UV, the **length** and **full velocity** curves numerically coincide, while the **no-dia** curve exhibits the expected unphysical behaviour at low frequency.
 
 ---
 
-### F2 – Optical \(f\)-sum saturation
+### F2 – Optical $(f)$-sum saturation
 
-Using the same \(\sigma(\omega)\) as F1, we compute the cumulative integral
+Using the same $(\sigma(\omega))$ as F1, we compute the cumulative integral
 
-\[
-\mathcal{C}(\omega) = \int_0^\omega \mathrm{Re}\,\sigma(\Omega)\,d\Omega,
-\]
+$\mathcal{C}(\omega) = \int_0^\omega \mathrm{Re}\,\sigma(\Omega)\,d\Omega$
 
 and compare it against the target value
 
-\[
-\lim_{\omega\to\infty} \mathcal{C}(\omega)
-= \frac{\pi n e^2}{2 m},
-\]
+$\lim_{\omega\to\infty} \mathcal{C}(\omega)
+= \frac{\pi n e^2}{2 m}$
 
 with an effective density \(n_{\mathrm{eff}}\) written to `Table_S1_units_prefactors.csv`.
 
