@@ -20,10 +20,10 @@ The goals of this repo are:
 
 - `F1-F4.py`  
   Main Python script. Generates:
-  - `IMG/F1_epsilon_overlay.png` – length vs velocity gauge \(\varepsilon(\omega)\)
-  - `IMG/F2_fsum_cumulative.png` – optical \(f\)-sum saturation
-  - `IMG/F3_sheet_vs_film.png` – 2D sheet vs. naïve ultrathin film
-  - `IMG/F4_skin_depth.png` – RF/microwave skin depth at two temperatures
+  - `F1_epsilon_overlay.png` – length vs velocity gauge \(\varepsilon(\omega)\)
+  - `F2_fsum_cumulative.png` – optical \(f\)-sum saturation
+  - `F3_sheet_vs_film.png` – 2D sheet vs. naïve ultrathin film
+  - `F4_skin_depth.png` – RF/microwave skin depth at two temperatures
   - `Table_S1_units_prefactors.csv` – constants and parameters (Table S1 / Table~\ref{tab:allparams})
 
 - `IMG/`  
@@ -68,10 +68,10 @@ python F1-F4.py
 
 After a successful run you should see:
 
-- `IMG/F1_epsilon_overlay.png`
-- `IMG/F2_fsum_cumulative.png`
-- `IMG/F3_sheet_vs_film.png`
-- `IMG/F4_skin_depth.png`
+- `F1_epsilon_overlay.png`
+- `F2_fsum_cumulative.png`
+- `F3_sheet_vs_film.png`
+- `F4_skin_depth.png`
 - `Table_S1_units_prefactors.csv`
 
 These files are exactly the ones referenced as F1–F4 and Table~\ref{tab:allparams} in the manuscript.
