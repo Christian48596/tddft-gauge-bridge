@@ -212,12 +212,7 @@ If you use this repository or adapt the scripts, please cite the associated pape
 
 ## License
 
-You can choose what you prefer (for example):
-
 - [MIT License](https://opensource.org/licenses/MIT)  
-- or [BSD-3-Clause](https://opensource.org/licenses/BSD-3-Clause)
-
-For now, this section is a placeholder until you decide.
 
 ---
 
