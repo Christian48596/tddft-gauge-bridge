@@ -115,9 +115,9 @@ and compare it against the target value
 $\lim_{\omega\to\infty} \mathcal{C}(\omega)
 = \frac{\pi n e^2}{2 m}$
 
-with an effective density \(n_{\mathrm{eff}}\) written to `Table_S1_units_prefactors.csv`.
+with an effective density $(n_{\mathrm{eff}})$ written to `Table_S1_units_prefactors.csv`.
 
-The plot shows that \(\mathcal{C}(\omega)\) saturates at the analytic value within numerical tolerance, providing a **global unit/prefactor check** of the implementation.
+The plot shows that $(\mathcal{C}(\omega))$ saturates at the analytic value within numerical tolerance, providing a **global unit/prefactor check** of the implementation.
 
 ---
 
@@ -126,17 +126,17 @@ The plot shows that \(\mathcal{C}(\omega)\) saturates at the analytic value with
 We compare two ways of modeling a conductive 2D layer on a substrate:
 
 1. **Sheet model (solid lines)**  
-   - Use a 2D Drude conductivity \(\sigma_{2\mathrm{D}}(\omega)\) with:
-     - DC conductance \(\sigma_0 = 5\times10^{-3}\,\mathrm{S}\),
-     - scattering time \(\tau = 10^{-13}\,\mathrm{s}\).
+   - Use a 2D Drude conductivity $(\sigma_{2\mathrm{D}}(\omega))$ with:
+     - DC conductance $(\sigma_0 = 5\times10^{-3} \mathrm{S})$,
+     - scattering time $(\tau = 10^{-13} \mathrm{s})$.
    - Implement proper **sheet boundary conditions** at the interface (normal incidence).
-   - This corresponds to the \(q\to 0\) face of the dielectric-matrix formalism.
+   - This corresponds to the $(q\to 0)$ face of the dielectric-matrix formalism.
 
 2. **Naïve ultrathin film (dashed/dotted)**  
-   - Map the same sheet conductance to a bulk \(\sigma(\omega)\) over thickness \(d = 1\) nm.
-   - Construct a scalar \(\varepsilon(\omega)\) and treat the system as a three-layer Fresnel stack (air | film | substrate).
+   - Map the same sheet conductance to a bulk $(\sigma(\omega))$ over thickness $(d = 1)$ nm.
+   - Construct a scalar $(\varepsilon(\omega))$ and treat the system as a three-layer Fresnel stack (air | film | substrate).
 
-The difference between \(R(\omega)\) and \(A(\omega)\) from these two models quantifies the role of **local-field mixing** and microscopic geometry at the interface.
+The difference between $(R(\omega))$ and $(A(\omega))$ from these two models quantifies the role of **local-field mixing** and microscopic geometry at the interface.
 
 ---
 
@@ -144,21 +144,19 @@ The difference between \(R(\omega)\) and \(A(\omega)\) from these two models qua
 
 Starting from a phonon-limited Drude conductivity for a bulk metal,
 
-- reference conductivity: \(\sigma(300\,\mathrm{K}) = 5.8\times10^7\,\mathrm{S/m}\),
-- simple temperature scaling \(\sigma(T) \propto 1/T\),
+- reference conductivity: $(\sigma(300 \mathrm{K}) = 5.8\times10^7 \mathrm{S/m})$,
+- simple temperature scaling $(\sigma(T) \propto 1/T)$,
 
 we compute the skin depth
 
-\[
-\delta(\omega, T) = \sqrt{\frac{2}{\mu_0\,\omega\,\sigma(T)}} 
-\]
+$\delta(\omega, T) = \sqrt{\frac{2}{\mu_0\,\omega\,\sigma(T)}}$
 
 over a logarithmic frequency range, for two temperatures (e.g., 300 K and 600 K).
 
 The resulting curves show:
 
-- \(\delta \propto \omega^{-1/2}\) at fixed \(T\),
-- \(\delta \propto \sigma(T)^{-1/2}\) between temperatures,
+- $(\delta \propto \omega^{-1/2})$ at fixed $(T)$,
+- $(\delta \propto \sigma(T)^{-1/2})$ between temperatures,
 
 as expected from textbook RF–microwave electrodynamics.
 
@@ -170,7 +168,7 @@ All constants and parameters used in the script are written to:
 
 - `Table_S1_units_prefactors.csv`
 
-in a format that mirrors the manuscript’s Table~\ref{tab:allparams}. This includes:
+in a format that mirrors the manuscript’s Table 1. This includes:
 
 - SI values of physical constants (\(\varepsilon_0\), \(\mu_0\), \(e\), \(m\), \(\hbar\), …),
 - oscillator parameters and derived quantities (e.g. \(\Omega\), \(\gamma\), Lorentz strength \(S\), \(n_{\mathrm{eff}}\), \(\alpha(0)\)),
