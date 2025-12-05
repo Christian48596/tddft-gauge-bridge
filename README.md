@@ -38,7 +38,7 @@ A standard scientific Python stack is enough. For example:
 - Python ≥ 3.9
 - [NumPy](https://numpy.org/)
 - [Matplotlib](https://matplotlib.org/)
-- [Pandas](https://pandas.pydata.org/) (for CSV table output; optional if you rewrite that part)
+- [Pandas](https://pandas.pydata.org/) (for CSV table output)
 
 You can install these with:
 
@@ -83,10 +83,9 @@ These files are exactly the ones referenced as Figs.1–4 and Table S1 in the ma
   - dephasing $(\eta = 0.05  \Omega)$ (damping $(\gamma = 2\eta)$ ),
   - number density $(N = 10^{27} \mathrm{m^{-3}}\)$.
 
-- **Length gauge route**: build \(\alpha(\omega)\) from the two-level expression, then
-  \[
-    \varepsilon(\omega) = 1 + \frac{N\,\alpha(\omega)}{\varepsilon_0}.
-  \]
+- **Length gauge route**: build $(\alpha(\omega))$ from the two-level expression, then
+  
+    $\varepsilon(\omega) = 1 + \frac{N\,\alpha(\omega)}{\varepsilon_0}$.
 
 - **Velocity gauge route**: construct \(\sigma(\omega)\) via the Kubo current–current response, including:
   - paramagnetic current,
