@@ -85,7 +85,7 @@ These files are exactly the ones referenced as Figs.1–4 and Table S1 in the ma
 - Single Lorentz/2-level oscillator with:
   - transition energy $(\hbar \Omega = 3.0)$ eV,
   - dipole $(\mu = 3.0)$ D,
-  - dephasing $(\eta = 0.05 \Omega)$ (damping $(\gamma = 2\eta)$ ),
+  - dephasing $(\eta = 0.05\, \Omega)$ (damping $(\gamma = 2\eta)$ ),
   - number density $(N = 10^{27} \mathrm{m^{-3}}\)$.
 
 - **Length gauge route**: build \(\alpha(\omega)\) from the two-level expression, then
