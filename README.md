@@ -5,8 +5,8 @@ Gauge-invariant long-wavelength TDDFT without empty states: from polarizability 
 
 This repository contains the **numerical validation scripts** used to generate Figs. 1–4 and the parameter Table 1  in
 
-> C. Tantardini, Q. Pitteloud, B. Yakobson, M. P. Andersson,  
-> *Gauge-Invariant Long-Wavelength TDDFT Without Empty States: From Polarizability to Kubo Conductivity Across Heterogeneous Materials* (AIP, submitted).
+C. Tantardini, Q. Pitteloud, B. Yakobson, M. P. Andersson,  
+*Gauge-Invariant Long-Wavelength TDDFT Without Empty States: From Polarizability to Kubo Conductivity Across Heterogeneous Materials* (AIP, submitted).
 
 The goals of this repo are:
 
